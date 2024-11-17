@@ -1,0 +1,20 @@
+#banner{
+    @apply pt-[157px] pb-[117px] bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center
+}
+.banner_text{
+    @apply w-[643px] bg-[#FFF3E3] pl-[41px] pt-[62px] pb-[37px] ml-auto rounded-[10px] 
+}
+.banner_text h1{
+    @apply text-[16px] font-semibold font-poppins text-primary  pb-[4px]
+}
+.banner_text h2{
+    @apply w-[402px] text-[52px] font-semibold font-poppins text-barnd 
+}
+.banner_text p{
+    @apply w-[546px] text-[18px] font-medium font-poppins text-secondary pt-[17px] pb-[46px]
+}
+.banner_button a{
+    @apply py-[25px] px-[72px] bg-barnd text-[16px] font-bold font-poppins text-[#fff] 
+}
+
+

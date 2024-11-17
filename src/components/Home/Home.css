@@ -1,0 +1,16 @@
+.browse_head h2{
+    @apply text-[32px] font-bold font-poppins text-primary text-center pt-[56px]
+}
+.browse_head p{
+    @apply text-[20px] font-normal font-poppins text-secondary text-center pb-[62px]
+}
+.browse_imges{
+    @apply flex gap-5 justify-center
+}
+.browse_img img{
+    @apply w-full
+}
+.browse_img p{
+    @apply text-2xl font-semibold font-poppins text-primary pt-[30px] text-center
+} 
+

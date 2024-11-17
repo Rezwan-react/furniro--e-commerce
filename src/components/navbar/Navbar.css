@@ -1,0 +1,21 @@
+.mine_menu{
+    @apply py-[30px] 
+}
+.menu_col{
+    @apply flex items-center justify-between
+}
+.menu ul{
+    @apply flex items-center gap-[75px] 
+}
+.menu ul li{
+    @apply text-[16px] font-medium font-poppins text-[#000]
+}
+.menu_icons ul{
+    @apply flex gap-[45px] items-center
+}
+.menu_icons ul li{
+    @apply text-2xl text-[#000]
+}
+
+
+
