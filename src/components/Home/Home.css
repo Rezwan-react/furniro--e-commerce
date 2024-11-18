@@ -13,4 +13,30 @@
 .browse_img p{
     @apply text-2xl font-semibold font-poppins text-primary pt-[30px] text-center
 } 
-
+.productsCard_head h2{
+    @apply text-[40px] font-bold font-poppins text-[#3A3A3A] text-center pt-[56px] pb-[32px]
+}
+.products_items{
+    @apply grid grid-cols-4 gap-8
+}
+.productsCard_Show {
+    @apply flex justify-center mt-[32px] 
+}
+#explore{
+    @apply bg-[#FCF8F3] mt-[69px] pb-[67px] py-[44px]
+}
+.explore_text h2{
+    @apply w-[422px] text-[40px] font-bold font-poppins text-primary
+}
+.explore_text p{
+    @apply w-[368px]  text-[16px] font-medium font-poppins text-secondary pb-[25px]
+}
+.explore_button button{
+    @apply py-[12px] px-[36px] bg-barnd text-[16px] font-semibold font-poppins text-[#fff]
+}
+.explore_col{
+    @apply flex gap-[42px]
+}
+.explore_slide{
+    @apply w-[876px]
+}

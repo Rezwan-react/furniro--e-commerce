@@ -1,15 +1,27 @@
 import React from 'react'
 import './Home.css'
 import Banner from '../Banner/Banner'
+import ProductsCard from '../Products/ProductsCard'
+import { Link } from 'react-router-dom'
+import ProductsCardButton from '../productsButton/ProductsCardButton'
+import "slick-carousel/slick/slick.css";
+import Slider from "react-slick";
 function Home() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+  };
   return (
     <>
-    {/* ============================= Banner part state ============================= */}
+    {/* ============================= Banner part start ============================= */}
       <section>
         <Banner/>
       </section>
       {/* --------------------------- Banner part end ---------------------------------- */}
-      {/* =========================== Browse part stste ================================ */}
+      {/* =========================== Browse part start ================================ */}
       <section id='browse'>
         <div className="containre">
            <div className="browse_row">
@@ -37,6 +49,64 @@ function Home() {
         </div>
       </section>
       {/* ------------------------------ Browse part end ------------------------------------ */}
+      {/* =============================== ProductsCaed part start ============================ */}
+        <section>
+          <div className="container">
+            <div className="productsCard_head">
+               <h2>Our Products</h2>
+            </div>
+              <div className='products_items'>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+              </div>
+              <div className="productsCard_Show">
+                <ProductsCardButton/>
+              </div>
+          </div>
+        </section>
+      {/* -------------------------------- ProductsCar part end ------------------------------- */}
+      {/* ================================= Explore part start ================================= */}
+      <section id='explore'>
+        <div className="container">
+          <div className="explore_row">
+            <div className="explore_col">
+              <div className="explore_text">
+                <h2>50+ Beautiful rooms inspiration</h2>
+                <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                <div className="explore_button">
+                  <button>Explore More</button>
+                </div>
+              </div>
+              <div className="explore_slide">
+                <Slider {...settings}>
+                  <div className="slide_img">
+                    <img src="images/slide-1.png" alt="slide" />
+                  </div>                    
+                  <div className="slide_img">
+                    <img src="images/slide-1.png" alt="slide" />
+                  </div>                    
+                  <div className="slide_img">
+                    <img src="images/slide-1.png" alt="slide" />
+                  </div>                    
+                  <div className="slide_img">
+                    <img src="images/slide-1.png" alt="slide" />
+                  </div>                    
+                  <div className="slide_img">
+                    <img src="images/slide-1.png" alt="slide" />
+                  </div>                    
+                  </Slider>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* --------------------------------------- Explore part end ------------------------------- */}
     </>
   )
 }

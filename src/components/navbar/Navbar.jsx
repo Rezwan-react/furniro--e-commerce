@@ -16,7 +16,7 @@ function Navbar() {
             <div className="menu_row">
               <div className="menu_col">
                 <div className="logo">
-                  <img src="images/logo.png" alt="logo" />
+                  <Link to='/'><img src="images/logo.png" alt="logo" /></Link>
                 </div>
                 <div className="menu">
                   <ul>
