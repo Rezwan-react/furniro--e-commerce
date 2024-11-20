@@ -6,14 +6,19 @@ import { Link } from 'react-router-dom'
 import ProductsCardButton from '../productsButton/ProductsCardButton'
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
+import NextArrow from '../NextArrow/NextArrow'
 function Home() {
+
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <span></span>,
   };
+
   return (
     <>
     {/* ============================= Banner part start ============================= */}
@@ -107,6 +112,23 @@ function Home() {
         </div>
       </section>
       {/* --------------------------------------- Explore part end ------------------------------- */}
+      {/* ======================================== setup part start =============================== */}
+        <section id='setup'>
+          <div className="container">
+            <div className="setup_row">
+              <div className="setup_col">
+                <div className="setup_text">
+                  <p>Share your setup with</p>
+                  <h2>#FuniroFurniture</h2>
+                </div>
+                <div className="setup_img">
+                  <img src="images/setup_img.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      {/* ----------------------------------------- setup part end --------------------------------- */}
     </>
   )
 }

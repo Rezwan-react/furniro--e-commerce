@@ -35,8 +35,32 @@
     @apply py-[12px] px-[36px] bg-barnd text-[16px] font-semibold font-poppins text-[#fff]
 }
 .explore_col{
-    @apply flex gap-[42px]
+    @apply flex gap-[42px] items-center
 }
 .explore_slide{
     @apply w-[876px]
 }
+.slick-active .slide_img img{
+    @apply  h-[486px]
+}
+.slick-active.slick-current img{
+    @apply  h-full
+}
+.explore_slide .slick-slider .slick-dots {
+    @apply  flex  justify-center gap-5 mt-3 !important
+}
+.explore_slide .slick-slider .slick-dots li button {
+    @apply  text-[0px] w-3 h-3 rounded-full bg-barnd
+}
+.setup_text p{
+    @apply text-xl font-semibold font-poppins text-secondary text-center pt-[67px]
+}
+.setup_text h2{
+    @apply text-[40px] font-bold font-poppins text-primary text-center
+}
+.setup_img{
+    @apply pt-[21px]
+}
+
+
+
