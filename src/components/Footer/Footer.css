@@ -1,0 +1,55 @@
+#footer{
+    @apply px-[100px] py-[48px] border-t-[1px]  border-[rgba(0,0,0,0.19)] mt-[50px]
+}
+.footer_col{
+    @apply flex justify-between
+}
+.footer_head h2{
+    @apply text-2xl font-bold font-poppins text-[#000]
+}
+.footer_head p{
+    @apply w-[285px] text-[16px] font-normal font-poppins text-[#9F9F9F] pt-[50px]
+}
+.footer_head p span{
+    @apply w-[285px] text-[16px] font-normal font-poppins text-[#9F9F9F] pt-[50px]
+}
+.footer_menu ul li p{
+    @apply text-[16px] font-medium font-poppins text-[#9F9F9F] pb-[50px]
+}
+.footer_menu ul {
+    @apply text-[16px] font-medium font-poppins text-[#000] flex flex-col gap-[46px]
+}
+.footer_menu ul li{
+    @apply text-[16px] font-medium font-poppins text-[#000] 
+}
+.footer_help ul li p{
+    @apply text-[16px] font-medium font-poppins text-[#9F9F9F] pb-[50px]
+}
+.footer_help ul {
+    @apply text-[16px] font-medium font-poppins text-[#000] flex flex-col gap-[46px]
+}
+.footer_help ul li{
+    @apply text-[16px] font-medium font-poppins text-[#000] 
+}
+.footer_input p{
+    @apply text-[16px] font-medium font-poppins text-[#9F9F9F] pb-[50px]
+}
+.footer_in{
+    @apply flex gap-3
+}
+.footer_in input{
+    @apply border-b-[1px] border-[#000] outline-none
+}
+.footer_in input ::placeholder{
+    @apply text-[14px] font-normal font-poppins text-[#9F9F9F]
+}
+.footer_in button{
+    @apply border-b-[1px] border-[#000] text-[14px] font-normal font-poppins text-[#000]
+}
+.footer_text {
+    @apply w-full border-t-[1px] border-[rgba(0,0,0,0.19)] mt-[48px]
+}
+.footer_text p{
+    @apply text-[16px] font-normal font-poppins text-[#000] pt-[35px]
+}
+
