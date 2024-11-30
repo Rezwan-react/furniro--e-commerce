@@ -4,5 +4,33 @@
 .shop_head h2{
     @apply text-5xl font-medium font-poppins text-[#000] text-center
 }
-
-
+#filter{
+    @apply bg-[#F9F1E7] py-9
+}
+.filter_col{
+    @apply flex justify-between items-center
+}
+.filter_text{
+    @apply flex items-center gap-3
+}
+.filter_text h3 {
+    @apply text-xl font-normal font-poppins text-[#000]
+}
+.filter_text h2{
+    @apply text-xl font-normal font-poppins text-[#000]
+}
+.filter_text p{
+    @apply text-[16px] font-normal font-poppins text-[#000] pl-8 border-l-2 border-[#9F9F9F]
+}
+.filter_input label{
+    @apply text-xl font-normal font-poppins text-[#000] pr-4
+}
+.filter_input .one {
+    @apply w-[55px] h-[55px] text-xl font-normal font-poppins text-[#000] mr-2 text-center outline-none
+}
+.filter_input .two {
+    @apply w-[188px] h-[55px] text-xl font-normal font-poppins text-[#000] pl-7 outline-none
+}
+#products{
+    @apply grid grid-cols-4 gap-8
+}
