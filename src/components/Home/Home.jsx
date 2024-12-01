@@ -69,6 +69,10 @@ function Home() {
                 <ProductsCard/>
                 <ProductsCard/>
                 <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
+                <ProductsCard/>
               </div>
               <div className="productsCard_Show">
                 <ProductsCardButton/>

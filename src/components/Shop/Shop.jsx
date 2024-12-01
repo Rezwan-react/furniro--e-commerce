@@ -2,9 +2,14 @@ import React from 'react'
 import './Shop.css'
 import BreadCrumb from '../BreadCrumb/BreadCrumb'
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
-import ProductsCard from '../Products/ProductsCard';
+import ProductsPagination from '../Pagination/ProductsPagination';
+
+
 
 function Shop() {
+
+  
+
   return (
     <>
       {/* ============================== banner part start ========================= */}
@@ -43,20 +48,9 @@ function Shop() {
         </section>
       {/* -------------------------------- Filter part end ---------------------------- */}
       {/* ================================= products part start ====================== */}
-        <section id='products'>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-          < ProductsCard/>
-        </section>
+      <section id='products'>
+        <ProductsPagination itemsPerPage={16}/>
+        </section>  
       {/* --------------------------------- products part end ------------------------  */}
     </>
   )

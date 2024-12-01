@@ -32,5 +32,16 @@
     @apply w-[188px] h-[55px] text-xl font-normal font-poppins text-[#000] pl-7 outline-none
 }
 #products{
-    @apply grid grid-cols-4 gap-8
+    @apply  pt-12 pb-[86px] bg-[#fff]
 }
+#products ul li a{
+    @apply py-4 px-6 bg-[#F9F1E7] rounded-xl
+}
+#products ul .selected a{
+    @apply py-4 px-6 bg-barnd rounded-xl
+}
+#products ul .previous a{
+    @apply hidden
+}
+
+
