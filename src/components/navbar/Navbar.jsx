@@ -31,7 +31,7 @@ function Navbar() {
                     <li><Link to='#'><FaUser /></Link></li>
                     <li><Link to='#'><FaSistrix /></Link></li>
                     <li><Link to='#'><CiHeart /></Link></li>
-                    <li><Link to='#'><CiShoppingCart /></Link></li>
+                    <li><CiShoppingCart /></li>
                   </ul>
                 </div>
               </div>

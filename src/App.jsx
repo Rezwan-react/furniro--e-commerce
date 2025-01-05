@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import Layout from './components/layout/Layout'
 import ErrorPage from './pages/ErrorPage'
+import CardAdd from './components/CardAdd/CardAdd'
 
 function App() {
   const router = createBrowserRouter(
@@ -17,6 +18,7 @@ function App() {
           <Route path='/shop' element ={<ShopPage/>}/>
           <Route path='/about' element ={<AboutPage/>}/>
           <Route path='/contact' element ={<ContactPage/>}/>
+          <Route path='/cardAdd' element ={<CardAdd/>}/>
         </Route>
           <Route path='*' element ={<ErrorPage/>}/>
       </Route>
